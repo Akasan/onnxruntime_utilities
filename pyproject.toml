@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 onnxruntime = "^1.17.3"
+onnx = "^1.16.1"
 
 
 [build-system]
