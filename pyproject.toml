@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 onnxruntime = "^1.17.3"
 onnx = "^1.16.1"
+torch = "^2.3.0"
 
 
 [build-system]
