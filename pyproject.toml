@@ -12,6 +12,12 @@ onnx = "^1.16.1"
 torch = "^2.3.0"
 
 
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.4.2"
+flake8 = "^7.0.0"
+pre-commit = "^3.7.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
