@@ -1,4 +1,5 @@
 from typing import Any
+
 from onnxruntime import InferenceSession
 
 
@@ -16,10 +17,7 @@ def inference(sess: InferenceSession, inputs: dict[str, Any]) -> Any:
     return result
 
 
-def generate_inputs(
-    sess: InferenceSession,
-    items: list[Any]
-) -> dict[str, Any]:
+def generate_inputs(sess: InferenceSession, items: list[Any]) -> dict[str, Any]:
     desired_inputs = sess.get_inputs()
 
     if not len(desired_inputs) == len(items):
