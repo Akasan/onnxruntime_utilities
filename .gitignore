@@ -2,3 +2,4 @@
 build
 dist
 onnxruntime_utilities.egg-info
+*.onnx
