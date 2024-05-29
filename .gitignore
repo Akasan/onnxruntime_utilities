@@ -3,3 +3,4 @@ build
 dist
 onnxruntime_utilities.egg-info
 *.onnx
+**/__pycache__
