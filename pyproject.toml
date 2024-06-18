@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "onnxruntime-utils"
+name = "onnxruntime_utilities"
 version = "0.1.0"
 description = ""
 authors = ["Daisuke AKAGAWA <daisuke1024akagawa@gmail.com>"]
